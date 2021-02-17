@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1613588129 source:c:\users\ioana\desktop\pb2\main.c
+	<stdio.h>
+	<stdlib.h>
+

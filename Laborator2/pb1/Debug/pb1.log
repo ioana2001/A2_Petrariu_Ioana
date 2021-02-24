@@ -1,0 +1,5 @@
+﻿  NumberList.cpp
+  pb1.cpp
+C:\Users\Ioana\Desktop\pb1\pb1.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  pb1.vcxproj -> C:\Users\Ioana\Desktop\pb1\Debug\pb1.exe

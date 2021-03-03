@@ -14,7 +14,7 @@ public:
     static int Mul(int, int, int);
     static int Mul(double, double);
     static int Mul(double, double, double);
+    static double Add(int, double);
     static int Add(int count, ...);
     static char* Add(const char*, const char*);
-    static double Add(int, double);
 }

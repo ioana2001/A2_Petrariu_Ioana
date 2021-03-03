@@ -1,13 +1,46 @@
 #include "math.h"
 
-static int Add(int, int);
-static int Add(int, int, int);
-static int Add(double, double);
-static int Add(double, double, double);
-static int Mul(int, int);
-static int Mul(int, int, int);
-static int Mul(double, double);
-static int Mul(double, double, double);
-static int Add(int count, ...);
-static char* Add(const char*, const char*);
-static double Add(int, double);
+int Math::Add(int x, int y)
+{
+	return x + y;
+}
+
+int Math::Add(int x, int y, int z)
+{
+	return x + y + z;
+}
+
+double Math::Add(double x, double y)
+{
+	return x + y;
+}
+
+double Math::Add(double x, double y, double z)
+{
+	return x + y;
+}
+
+int Math::Mul(int x, int y)
+{
+	return x * y;
+}
+
+int Math::Mul(int x, int y, int z)
+{
+	return x * y * z;
+}
+
+double Math::Mul(double x, double y)
+{
+	return x * y;
+}
+
+double Math::Mul(double x, double y, double z)
+{
+	return x * y * z;
+}
+
+double Math::Add(int x, double y)
+{
+	return x + y;
+}

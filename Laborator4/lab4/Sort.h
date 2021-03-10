@@ -14,9 +14,9 @@ public:
     Sort(int n, int min1, int max1);
     Sort(int a[100], int n);
     Sort(int count, ...);
-   /* void InsertSort(bool ascendent = false);
+    void InsertSort(bool ascendent = false);
     void QuickSort(bool ascendent = false);
-    void BubbleSort(bool ascendent = false);*/
+    void BubbleSort(bool ascendent = false);
     void Print();
     int  GetElementsCount();
     int  GetElementFromIndex(int index);

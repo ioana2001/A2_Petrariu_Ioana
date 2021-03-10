@@ -21,6 +21,7 @@ int main()
     char v[100] = "10,45,6,2,20";
     Sort s3(v);
     bool b = false;
+    s3.BubbleSort(b);
     s3.Print();
     cout << endl << endl;
 

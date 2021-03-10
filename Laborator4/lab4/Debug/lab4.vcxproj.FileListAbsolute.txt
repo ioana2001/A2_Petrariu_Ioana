@@ -1,2 +1,4 @@
 C:\Users\Ioana\Desktop\lab4\Debug\lab4.exe
 C:\Users\Ioana\Desktop\lab4\Debug\lab4.pdb
+C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\Laborator4\lab4\Debug\lab4.exe
+C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\Laborator4\lab4\Debug\lab4.pdb

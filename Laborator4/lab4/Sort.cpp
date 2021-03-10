@@ -86,3 +86,91 @@ int  Sort::GetElementFromIndex(int index)
     return *i;
 }
 
+
+void Sort::BubbleSort(bool ascendent)
+{
+    bool ok;
+    int aux;
+    do {
+        ok = 0;
+        for (int k = 0; k < a.size(); k++)
+        {
+            list<int>::iterator i = a.begin();
+            list<int>::iterator j = a.begin();
+
+            int index1 = k - 1, index2 = k;
+            int contor = 0;
+            while (contor < index1 && i != a.end())
+            {
+                i++;
+                contor++;
+            }
+
+            contor = 0;
+            while (contor < index2 && j != a.end())
+            {
+                j++;
+                contor++;
+            }
+            
+            if (*i > *j)
+            {
+                int aux;
+                aux = *i;
+                *i = *j;
+                *j = aux;
+                ok = 1;
+            }
+        }
+    } while (ok == 1);
+}
+
+void Sort::InsertSort(bool ascendent)
+{
+    int i, j, key;
+    for (i = 0; i < a.size(); i++)
+    {
+        list<int>::iterator i1 = a.begin();
+        list<int>::iterator j1 = a.begin();
+        list<int>::iterator key1 = a.begin();
+        int contor = 0;
+        while (contor < i && i1 != a.end())
+        {
+            i1++;
+            contor++;
+        }
+        key = *i1;
+        j = i - 1;
+        if (ascendent == false)
+        {
+            contor = 0;
+            while (contor < j && j1 != a.end())
+            {
+                j1++;
+                contor++;
+            }
+
+            while (j >= 0 && *j1 < key)
+            {
+                *j1 = j + 1;
+                j--;
+            }
+        }
+        else
+        {
+            while (j >= 0 && *j1 > key)
+            {
+                *j1 = j + 1;
+                j--;
+            }
+
+            contor = 0;
+            while (contor < key && key1 != a.end())
+            {
+                key1++;
+                contor++;
+            }
+            *key1 = j + 1;
+        }
+    }
+}

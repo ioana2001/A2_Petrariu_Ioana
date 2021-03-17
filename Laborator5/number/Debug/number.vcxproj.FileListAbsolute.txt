@@ -1,0 +1,2 @@
+C:\Users\Ioana\Desktop\number\Debug\number.exe
+C:\Users\Ioana\Desktop\number\Debug\number.pdb

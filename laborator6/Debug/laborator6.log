@@ -1,0 +1,4 @@
+﻿  circuit.cpp
+C:\Users\Ioana\Desktop\laborator6\circuit.cpp(37,52): error C2228: left of '.Getfuelconsmp' must have class/struct/union
+C:\Users\Ioana\Desktop\laborator6\circuit.cpp(37,52): message : type is 'Car *'
+C:\Users\Ioana\Desktop\laborator6\circuit.cpp(37,52): message : did you intend to use '->' instead?

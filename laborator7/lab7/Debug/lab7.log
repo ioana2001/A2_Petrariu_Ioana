@@ -1,0 +1,4 @@
+﻿  lab7.cpp
+C:\Users\Ioana\Desktop\lab7\lab7.cpp(31,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Ioana\Desktop\lab7\lab7.cpp(32,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  lab7.vcxproj -> C:\Users\Ioana\Desktop\lab7\Debug\lab7.exe

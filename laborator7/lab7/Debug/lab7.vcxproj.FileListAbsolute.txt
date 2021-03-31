@@ -1,0 +1,4 @@
+C:\Users\Ioana\source\repos\lab7\Debug\lab7.exe
+C:\Users\Ioana\source\repos\lab7\Debug\lab7.pdb
+C:\Users\Ioana\Desktop\lab7\Debug\lab7.exe
+C:\Users\Ioana\Desktop\lab7\Debug\lab7.pdb

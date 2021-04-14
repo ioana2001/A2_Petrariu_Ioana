@@ -43,7 +43,7 @@ int main()
     ifstream file;
     string s;
     string filename = "TextFile.txt";
-    string delimiter = ". ,!?";
+    const char* delimiter = ". ,!?";
     file.open(filename);
 
     getline(file, s);
@@ -53,8 +53,8 @@ int main()
     
     for (int i = 0; i < s.length(); i++)
     {
-        if (s[i] == '.' || s[i] == '?' || s[i] == '!' || s[i] == ',')
-            s[i] = ' ';
+        //if (s[i] == '.' || s[i] == '?' || s[i] == '!' || s[i] == ',')
+        //    s[i] = ' ';
         if (s[i] >= 'A' && s[i] <= 'Z')
             s[i] = s[i] - 'A' + 'a';
     }
@@ -63,10 +63,20 @@ int main()
     map<string, int> m;
     priority_queue<Element, vector<Element>, Compare> q;
 
-    for (string s; iss >> s;)
+    int from = s.find_first_not_of(delimiter, 0);
+    int to;
+
+    while(from != string::npos)
+    {
+        to = s.find_first_of(delimiter, from + 1);
+        m[s.substr(from, to - from)]++;
+        from = s.find_first_not_of(delimiter, to + 1);
+    }
+
+   /* for (string s; iss >> s;)
     {
         m[s]++;
-    }
+    }*/
 
     map<string, int>::iterator it;
     

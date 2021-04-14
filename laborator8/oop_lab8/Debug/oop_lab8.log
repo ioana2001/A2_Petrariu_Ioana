@@ -1,4 +1,4 @@
 ﻿  oop_lab8.cpp
-C:\Users\Ioana\Desktop\oop_lab8\oop_lab8.cpp(54,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ioana\Desktop\oop_lab8\oop_lab8.cpp(28): warning C4715: 'compareStrings': not all control paths return a value
-  oop_lab8.vcxproj -> C:\Users\Ioana\Desktop\oop_lab8\Debug\oop_lab8.exe
+C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\laborator8\oop_lab8\oop_lab8.cpp(54,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\laborator8\oop_lab8\oop_lab8.cpp(28): warning C4715: 'compareStrings': not all control paths return a value
+  oop_lab8.vcxproj -> C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\laborator8\oop_lab8\Debug\oop_lab8.exe

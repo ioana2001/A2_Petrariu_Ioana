@@ -1,2 +1,4 @@
 C:\Users\Ioana\Desktop\number\Debug\number.exe
 C:\Users\Ioana\Desktop\number\Debug\number.pdb
+C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\Laborator5\number\Debug\number.exe
+C:\Users\Ioana\Desktop\A2_Petrariu_Ioana\Laborator5\number\Debug\number.pdb

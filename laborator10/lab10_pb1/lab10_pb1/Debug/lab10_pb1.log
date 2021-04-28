@@ -1,0 +1,5 @@
+﻿  lab10_pb1.cpp
+C:\Users\ioana\source\repos\lab10_pb1\lab10_pb1\lab10_pb1.cpp(26,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ioana\source\repos\lab10_pb1\lab10_pb1\lab10_pb1.cpp(27,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ioana\source\repos\lab10_pb1\lab10_pb1\lab10_pb1.cpp(33,23): warning C4018: '<': signed/unsigned mismatch
+  lab10_pb1.vcxproj -> C:\Users\ioana\source\repos\lab10_pb1\Debug\lab10_pb1.exe

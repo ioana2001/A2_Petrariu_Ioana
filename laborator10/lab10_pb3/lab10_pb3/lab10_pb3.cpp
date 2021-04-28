@@ -45,8 +45,10 @@ public:
 
     void Filter(bool(*f)(int x)) {
         for (int i = 0; i < Size; i++) {
-            if (f(v[i]) == 1)
+            if (f(v[i]) == 1) {
                 Delete(i);
+                i--;
+            }
         }
     }
 };

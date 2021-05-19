@@ -1,0 +1,5 @@
+﻿  lab13.cpp
+C:\Users\ioana\source\repos\lab12\lab12\Agenda.h(15,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ioana\source\repos\lab12\lab12\Agenda.h(23,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ioana\source\repos\lab12\lab12\Agenda.h(31,21): warning C4018: '<': signed/unsigned mismatch
+  lab13.vcxproj -> C:\Users\ioana\source\repos\lab12\lab12\Debug\lab13.exe
